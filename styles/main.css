@@ -19,7 +19,7 @@ img {
 }
 @font-face {
     font-family: "PermanentM";
-    src: url("/fonts/PermanentMarker-Regular.ttf");
+    src: url("../fonts/PermanentMarker-Regular.ttf");
 }
 body {
     font-family: "PermanentM", cursive;
