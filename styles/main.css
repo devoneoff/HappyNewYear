@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    scroll-behavior: smooth;
+}
+img {
+    pointer-events: none;
+}
+:root {
+    --accent: #FF2841;
+    --second: #ffb3bc;
+    --white: #fff;
+}
+@font-face {
+    font-family: "PermanentM";
+    src: url("/fonts/PermanentMarker-Regular.ttf");
+}
+body {
+    font-family: "PermanentM", cursive;
+}
+.scrollBox {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+section {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: var(--accent);
+    color: var(--white);
+    padding: 1.4rem 3rem;
+}
+.iLetter i {
+    font-size: 2.4rem;
+    animation: iMove 1.2s linear infinite;
+}
+@keyframes iMove {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.page3text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+}
+.page3-text1,
+.page3-text2 {
+    width: 100%;
+}
+.page3-text1-title, .page3-text2-title {
+    text-align: left;
+}
+.page3-text1-text, .page3-text2-text {
+    text-align: right;
+    color: var(--second);
+}
+
+
+#pageMoment {
+    overflow: hidden;
+    padding: 0;
+    max-height: 100vh;
+    display: flex;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+.page1 {
+    position: relative;
+}

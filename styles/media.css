@@ -1,0 +1,379 @@
+@media (min-width: 1000px) {
+    section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #page1 {
+        flex-direction: column;
+    }
+    .page1-title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .page1-year {
+        font-size: 9rem;
+        text-align: center;
+        margin: -2rem 0;
+    }
+    .page1-subtitle {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .page2-name {
+        font-size: 6rem;
+        text-align: left;
+        margin-top: 3rem;
+    }
+    .page2-title {
+        font-size: 3rem;
+        text-align: right;
+        margin: 2rem 0 3rem 0;
+    }
+    .page2-maintext {
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    .page2-image img {
+        width: 30rem;
+        margin-top: 3rem;
+    }
+
+    .page3-text1-title, .page3-text2-title {
+        font-size: 2.4rem;
+    }
+    .page3-text1-text, .page3-text2-text {
+        font-size: 1.8rem;
+    }
+
+
+    #pageMoment.image-width {
+        flex-direction: row;
+    }
+    #pageMoment.image-height {
+        flex-direction: row-reverse;
+    }
+    .pageMoment-image,
+    .pageMoment-text {
+        width: 50%;
+        overflow: hidden;
+    }
+    img {
+        position: relative;
+    }
+    .image-width .pageMoment-image img {
+        width: 100%;
+    }
+    .image-height .pageMoment-image img {
+        height: 100%;
+    }
+    .image-height .pageMoment-image {
+        text-align: right;
+    }
+    .pageMoment-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .pageMoment-text {
+        padding: 2rem;
+    }
+    .page-text-year {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .pageCook {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cook img {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 999px) and (min-width: 650px) {
+    section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #page1 {
+        flex-direction: column;
+    }
+    .page1-title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .page1-year {
+        font-size: 8rem;
+        text-align: center;
+        margin: -2rem 0;
+    }
+    .page1-subtitle {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .page2-name {
+        font-size: 3.5rem;
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+    .page2-title {
+        font-size: 2rem;
+        text-align: right;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .page2-maintext {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .page2-image img {
+        width: 23rem;
+        margin-top: 3rem;
+    }
+
+    .page3-text1-title, .page3-text2-title {
+        font-size: 1.6rem;
+    }
+    .page3-text1-text, .page3-text2-text {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+    }
+
+
+    #pageMoment.image-width {
+        flex-direction: row;
+    }
+    #pageMoment.image-height {
+        flex-direction: row-reverse;
+    }
+    .pageMoment-image,
+    .pageMoment-text {
+        width: 50%;
+        overflow: hidden;
+    }
+    img {
+        position: relative;
+    }
+    .image-width .pageMoment-image img {
+        width: 100%;
+    }
+    .image-height .pageMoment-image img {
+        height: 100%;
+    }
+    .image-height .pageMoment-image {
+        text-align: right;
+    }
+    .pageMoment-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .pageMoment-text {
+        padding: 2rem;
+    }
+    .page-text-year {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .pageCook {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cook img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 451px) {
+    section {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #page1 {
+        flex-direction: column;
+    }
+    .page1-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .page1-year {
+        font-size: 5rem;
+        text-align: center;
+        margin: 0;
+    }
+    .page1-subtitle {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .page2-name {
+        font-size: 3.5rem;
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+    .page2-title {
+        font-size: 2rem;
+        text-align: right;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .page2-maintext {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .page2-image img {
+        width: 23rem;
+        margin-top: 3rem;
+    }
+
+    .page3-text1-title, .page3-text2-title {
+        font-size: 1.4rem;
+    }
+    .page3-text1-text, .page3-text2-text {
+        font-size: 1.1rem;
+        margin-top: 1.3rem;
+    }
+
+
+    #pageMoment.image-width {
+        flex-direction: column;
+    }
+    #pageMoment.image-height {
+        flex-direction: column-reverse;
+    }
+    .pageMoment-image,
+    .pageMoment-text {
+        height: 50%;
+        overflow: hidden;
+    }
+    img {
+        width: 100%;
+    }
+    .image-height .pageMoment-image {
+        text-align: right;
+    }
+    .pageMoment-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .pageMoment-text {
+        padding: 2rem;
+    }
+    .page-text-year {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .cook img {
+        margin-top: 3rem;
+    }
+    .pageCook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cook img {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    section {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #page1 {
+        flex-direction: column;
+    }
+    .page1-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .page1-year {
+        font-size: 5rem;
+        text-align: center;
+        margin: 0;
+    }
+    .page1-subtitle {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .page2-name {
+        font-size: 3.5rem;
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+    .page2-title {
+        font-size: 2rem;
+        text-align: right;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .page2-maintext {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .page2-image img {
+        width: 23rem;
+        margin-top: 3rem;
+    }
+
+    .page3-text1-title, .page3-text2-title {
+        font-size: 1.4rem;
+    }
+    .page3-text1-text, .page3-text2-text {
+        font-size: 1.1rem;
+        margin-top: 1.3rem;
+    }
+
+
+    #pageMoment.image-width {
+        flex-direction: column;
+    }
+    #pageMoment.image-height {
+        flex-direction: column-reverse;
+    }
+    .pageMoment-image,
+    .pageMoment-text {
+        height: 50%;
+        overflow: hidden;
+    }
+    img {
+        width: 100%;
+    }
+    .image-height .pageMoment-image {
+        text-align: right;
+    }
+    .pageMoment-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .pageMoment-text {
+        padding: 2rem;
+    }
+    .page-text-year {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .cook img {
+        margin-top: 3rem;
+    }
+    .pageCook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cook img {
+        width: 100%;
+    }
+}
