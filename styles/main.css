@@ -17,13 +17,13 @@ img {
     --second: #ffb3bc;
     --white: #fff;
 }
-@font-face {
+/*@font-face {
     font-family: "PermanentM";
     src: url("../fonts/PermanentMarker-Regular.ttf");
 }
 body {
     font-family: "PermanentM", cursive;
-}
+}*/
 .scrollBox {
     max-height: 100vh;
     overflow-y: scroll;
