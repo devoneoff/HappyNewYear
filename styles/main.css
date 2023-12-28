@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/permanent-marker');
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +25,9 @@ img {
 body {
     font-family: "PermanentM", cursive;
 }*/
+body {
+    font-family: 'Permanent Marker', sans-serif;
+}       
 .scrollBox {
     max-height: 100vh;
     overflow-y: scroll;
